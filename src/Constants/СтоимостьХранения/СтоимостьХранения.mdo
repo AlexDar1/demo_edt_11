@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01c92bad-9962-46a9-95bd-2c45d1179e44">
+  <producedTypes>
+    <managerType typeId="1b939d8b-311a-4b41-8dc2-181e6c6edb0e" valueTypeId="0f20527b-2233-4032-ac8a-dab7deaec856"/>
+    <valueManagerType typeId="1cad7d5a-faef-4946-ae09-033697232ccc" valueTypeId="c88d4369-7a28-4a68-9340-696f48bf2794"/>
+    <valueKeyType typeId="6262d4fd-97a4-4dc8-ae9a-1d31e0fff01e" valueTypeId="5ff63e83-c490-457a-a60e-eb740ff7d06a"/>
+  </producedTypes>
+  <name>СтоимостьХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость хранения</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

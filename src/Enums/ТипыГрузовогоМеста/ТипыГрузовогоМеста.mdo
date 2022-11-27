@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d26894da-6fc7-4612-8908-fb482383b141">
+  <producedTypes>
+    <refType typeId="ebac7f0f-d5fc-45dd-b983-9bbfe2a94d7c" valueTypeId="3a44e98e-496d-4610-bec8-c797fb452405"/>
+    <listType typeId="748b89bf-ba8a-4df7-b511-ebe1b4481858" valueTypeId="3a860b77-8b7e-42dd-b7cd-e0beb4f19ad3"/>
+    <managerType typeId="822a16fe-46ca-4f76-82dd-4f9df852e5c8" valueTypeId="4e0563df-a739-47c4-bfb3-f63ec0bd37fa"/>
+  </producedTypes>
+  <name>ТипыГрузовогоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы грузового места</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8cd0a9f9-0b4e-45b3-b28b-b87eda1e9118">
+    <name>Хаб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хаб</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f455070b-72d0-42b9-b18a-d0f67eff0eae">
+    <name>Шины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шины</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba7baa00-7cb4-4970-9ebe-bed469928ced">
+    <name>КГТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>КГТ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d4e4a2c-a1b5-4ddd-abbc-7914b327c6d5">
+    <name>МГТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МГТ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

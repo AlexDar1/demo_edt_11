@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37239c07-9c9b-4d96-ab12-d35dedb959ee">
+  <producedTypes>
+    <selectionType typeId="81e148b9-91fe-4f62-8c45-4805aca3dc74" valueTypeId="323ff3df-c8b3-42a7-ba55-a230031e074f"/>
+    <listType typeId="04eb888b-1b16-4995-86ad-b1caa985c5b3" valueTypeId="f320ceae-867c-4544-845d-9f7a1bf1d7b8"/>
+    <managerType typeId="cc25c371-348d-4c6a-9700-2c948e903589" valueTypeId="fda665e4-a66d-4918-8c36-567b6dbc5c98"/>
+    <recordSetType typeId="ceb45005-e88e-40a0-90db-3b848e1b243b" valueTypeId="dd2c89f2-820c-4f4b-8b0f-72a6dc5f005c"/>
+    <recordKeyType typeId="877c85ca-31e2-4bd3-9a04-14ab6b414a23" valueTypeId="6382e479-025b-4675-b21d-2e79f1016f1a"/>
+    <recordType typeId="6ad1b824-06d0-45ef-930a-892651122ef7" valueTypeId="0ce70231-7437-4980-9160-9f54d94af840"/>
+    <recordManagerType typeId="103e1f4b-cf33-423e-ba80-efd088a28103" valueTypeId="ff2d7d39-7dbc-4ea5-ab7b-40cf24678c97"/>
+  </producedTypes>
+  <name>ТарифыНаОбработку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы на обработку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7deb5a24-b921-479a-b843-512ace52c1b4">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="4f778eca-2544-43dc-b650-4bf240d61aff">
+    <name>ТипГрузовогоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип грузового места</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыГрузовогоМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
