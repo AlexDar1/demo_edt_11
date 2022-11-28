@@ -65,29 +65,28 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultListForm>Document.Приход.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ОплатыЗаУслуги</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="2c2a3b27-0384-4117-89a1-cc99407d8f30">
+  <attributes uuid="51dd3327-bf27-4c89-a3d8-93c2a22e0e4e">
     <name>НомерГрузовогоМеста</name>
     <synonym>
       <key>ru</key>
       <value>Номер грузового места</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f08d89f9-6687-4391-b9d3-2457f7d6ba4e">
+  <attributes uuid="b59fa735-d3a9-49df-a59d-95453c8967b9">
     <name>ДатаПрибытия</name>
     <synonym>
       <key>ru</key>
@@ -95,9 +94,7 @@
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <dateQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -105,7 +102,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4d586f7b-e37d-448c-8b4d-2a7b04e704aa">
+  <attributes uuid="fc80959b-7184-4f72-ac97-8670a1c6bd4e">
     <name>ДатаУбытия</name>
     <synonym>
       <key>ru</key>
@@ -113,9 +110,7 @@
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <dateQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -123,7 +118,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="15c60d0e-7478-4a0d-8679-6150a4981747">
+  <attributes uuid="b746811b-3aed-45a1-93c9-ba102342184e">
     <name>ТипГрузовогоМеста</name>
     <synonym>
       <key>ru</key>
@@ -138,7 +133,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="1fd54d7c-f1e5-4f2b-9e16-98aa8cad9147">
+  <attributes uuid="c64d37b7-6e59-47de-ae3c-48825ba85218">
     <name>КодХаба</name>
     <synonym>
       <key>ru</key>

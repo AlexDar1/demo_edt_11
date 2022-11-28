@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37239c07-9c9b-4d96-ab12-d35dedb959ee">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83cc1f0d-71ff-4243-aa48-f8f7ee08d36b">
   <producedTypes>
-    <selectionType typeId="81e148b9-91fe-4f62-8c45-4805aca3dc74" valueTypeId="323ff3df-c8b3-42a7-ba55-a230031e074f"/>
-    <listType typeId="04eb888b-1b16-4995-86ad-b1caa985c5b3" valueTypeId="f320ceae-867c-4544-845d-9f7a1bf1d7b8"/>
-    <managerType typeId="cc25c371-348d-4c6a-9700-2c948e903589" valueTypeId="fda665e4-a66d-4918-8c36-567b6dbc5c98"/>
-    <recordSetType typeId="ceb45005-e88e-40a0-90db-3b848e1b243b" valueTypeId="dd2c89f2-820c-4f4b-8b0f-72a6dc5f005c"/>
-    <recordKeyType typeId="877c85ca-31e2-4bd3-9a04-14ab6b414a23" valueTypeId="6382e479-025b-4675-b21d-2e79f1016f1a"/>
-    <recordType typeId="6ad1b824-06d0-45ef-930a-892651122ef7" valueTypeId="0ce70231-7437-4980-9160-9f54d94af840"/>
-    <recordManagerType typeId="103e1f4b-cf33-423e-ba80-efd088a28103" valueTypeId="ff2d7d39-7dbc-4ea5-ab7b-40cf24678c97"/>
+    <selectionType typeId="6ec5afe5-63fc-49fb-9623-3d6d87c6302f" valueTypeId="a6643a27-94cc-4638-a5c1-468000ae05ca"/>
+    <listType typeId="66a40a82-f467-41f5-9260-3b9ba25a6ede" valueTypeId="c121fe7d-af7c-45e3-96a2-79428d68bb37"/>
+    <managerType typeId="d253c5ad-2336-4ee1-881d-b591c2f52a90" valueTypeId="6df4de19-11d4-4ec1-ab60-fa328306a12b"/>
+    <recordSetType typeId="2128a3fd-fcc7-4d6f-8fae-78d1643741be" valueTypeId="3af19493-dd48-44b1-bd1d-7700f8fd7b55"/>
+    <recordKeyType typeId="2141402e-54c2-4fcc-84f3-07323f42a78e" valueTypeId="dbcff24c-eeb5-4e2c-9fa3-c7f80dd1e0cd"/>
+    <recordType typeId="d5b8f1a0-bb8f-4c22-a9c5-ac2df02b19c6" valueTypeId="e21f9c26-4d6b-49ea-83ef-f098d246f6ef"/>
   </producedTypes>
-  <name>ТарифыНаОбработку</name>
+  <name>ОплатыЗаУслуги</name>
   <synonym>
     <key>ru</key>
-    <value>Тарифы на обработку</value>
+    <value>Оплаты за услуги</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <editType>InDialog</editType>
+  <registerType>Turnovers</registerType>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -49,42 +48,36 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
-  <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="7deb5a24-b921-479a-b843-512ace52c1b4">
-    <name>Стоимость</name>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2894d5b6-3d35-4a4b-9d1e-5466f4e6a012">
+    <name>Сумма</name>
     <synonym>
       <key>ru</key>
-      <value>Стоимость</value>
+      <value>Сумма</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
-        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="4f778eca-2544-43dc-b650-4bf240d61aff">
-    <name>ТипГрузовогоМеста</name>
+  <dimensions uuid="5d87a24c-3f3b-4b90-9bb4-881d251da4cf">
+    <name>ВидУслуги</name>
     <synonym>
       <key>ru</key>
-      <value>Тип грузового места</value>
+      <value>Вид услуги</value>
     </synonym>
     <type>
-      <types>EnumRef.ТипыГрузовогоМеста</types>
+      <types>EnumRef.ВидыУслуг</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
+    <useInTotals>true</useInTotals>
   </dimensions>
-</mdclass:InformationRegister>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca80e0e0-7903-4ede-b0ef-4504376c2e80">
+  <producedTypes>
+    <managerType typeId="8a182578-a664-4d0c-b8ce-59b7b0f58a3a" valueTypeId="cda14b2f-cba0-41ec-9ef6-85e76520a8bd"/>
+    <valueManagerType typeId="1f81de6c-971b-49cb-9d20-e8ce92da1b50" valueTypeId="e3a645dc-3ac9-4599-a23e-235a5b7d9580"/>
+    <valueKeyType typeId="71d74815-8a8d-4f04-90b9-f6817272ca53" valueTypeId="ab7d1c00-d24a-419e-a43d-77e80fc870a0"/>
+  </producedTypes>
+  <name>СтоимостьобработкиШин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимостьобработки шин</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

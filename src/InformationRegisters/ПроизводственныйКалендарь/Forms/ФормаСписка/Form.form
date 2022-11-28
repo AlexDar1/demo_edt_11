@@ -428,8 +428,7 @@
       </title>
       <id>2</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>EnumRef.ВидыДнейПроизводственногоКалендаря</types>
       </valueType>
       <view>
         <common>true</common>
@@ -501,7 +500,7 @@
         <name>ИзменитьДень</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПеренестиДень</name>
@@ -522,7 +521,7 @@
         <name>ПеренестиДень</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ЗаполнитьГодПоУмолчанию</name>
@@ -543,7 +542,7 @@
         <name>ЗаполнитьГодПоУмолчанию</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Записать</name>
@@ -564,7 +563,7 @@
         <name>Записать</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ЗаписатьИЗакрыть</name>
@@ -585,7 +584,7 @@
         <name>ЗаписатьИЗакрыть</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

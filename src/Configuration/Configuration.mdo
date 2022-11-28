@@ -24,7 +24,6 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.20</compatibilityMode>
   <languages uuid="3f1dd9b1-bdfa-4322-941a-2cec64044160">
@@ -35,11 +34,21 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <scheduledJobs>ScheduledJob.ПересчетСтоимостиОбработки</scheduledJobs>
+  <constants>Constant.СтоимостьобработкиКГТ</constants>
+  <constants>Constant.СтоимостьобработкиМГТ</constants>
+  <constants>Constant.СтоимостьобработкиШин</constants>
   <constants>Constant.СтоимостьХранения</constants>
   <documents>Document.Приход</documents>
+  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
+  <enums>Enum.ВидыУслуг</enums>
   <enums>Enum.ТипыГрузовогоМеста</enums>
-  <informationRegisters>InformationRegister.ПроизводственныйКалендарь</informationRegisters>
+  <reports>Report.ОбщийОтчет</reports>
+  <dataProcessors>DataProcessor.ПересчитатьСтоимостьОбработки</dataProcessors>
   <informationRegisters>InformationRegister.ТарифыНаОбработку</informationRegisters>
   <informationRegisters>InformationRegister.ТариыНаХаб</informationRegisters>
+  <informationRegisters>InformationRegister.ПроизводственныйКалендарь</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОплатыЗаУслуги</accumulationRegisters>
 </mdclass:Configuration>

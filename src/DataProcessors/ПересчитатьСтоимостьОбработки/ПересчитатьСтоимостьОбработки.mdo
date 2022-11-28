@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="876ee350-dfe2-4b91-ba17-844b649603ac">
+  <producedTypes>
+    <objectType typeId="d2c048b0-f4a8-4dc7-9382-0f0362e07fe6" valueTypeId="ee2cb76e-5d83-4e93-b63c-60c586fd493e"/>
+    <managerType typeId="1ff0d73e-728d-4c35-b9c4-37031867cb95" valueTypeId="4a3ac9c1-61b9-4b40-bb65-299c9a93f32c"/>
+  </producedTypes>
+  <name>ПересчитатьСтоимостьОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересчитать стоимость обработки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПересчитатьСтоимостьОбработки.Form.Форма</defaultForm>
+  <forms uuid="6f142241-27ac-4708-ac1b-71ada2620e2d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
