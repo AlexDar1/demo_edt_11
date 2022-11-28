@@ -37,18 +37,17 @@
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <scheduledJobs>ScheduledJob.ПересчетСтоимостиОбработки</scheduledJobs>
-  <constants>Constant.СтоимостьобработкиКГТ</constants>
+  <constants>Constant.СтоимостьХранения</constants>
   <constants>Constant.СтоимостьобработкиМГТ</constants>
   <constants>Constant.СтоимостьобработкиШин</constants>
-  <constants>Constant.СтоимостьХранения</constants>
+  <constants>Constant.СтоимостьобработкиКГТ</constants>
   <documents>Document.Приход</documents>
-  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
-  <enums>Enum.ВидыУслуг</enums>
   <enums>Enum.ТипыГрузовогоМеста</enums>
+  <enums>Enum.ВидыУслуг</enums>
+  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
   <reports>Report.ОбщийОтчет</reports>
   <dataProcessors>DataProcessor.ПересчитатьСтоимостьОбработки</dataProcessors>
   <informationRegisters>InformationRegister.ТарифыНаОбработку</informationRegisters>
-  <informationRegisters>InformationRegister.ТариыНаХаб</informationRegisters>
   <informationRegisters>InformationRegister.ПроизводственныйКалендарь</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОплатыЗаУслуги</accumulationRegisters>
 </mdclass:Configuration>
