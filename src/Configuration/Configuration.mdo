@@ -34,6 +34,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ДлительныеОперации</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <scheduledJobs>ScheduledJob.ПересчетСтоимостиОбработки</scheduledJobs>
